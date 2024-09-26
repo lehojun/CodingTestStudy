@@ -1,0 +1,4 @@
+n,m = input().split()
+n,m = int(n), int(m)
+a = n-m
+print(a)
