@@ -1,0 +1,4 @@
+n,m = input().split()
+n,m = float(n), float(m)
+a = n*m
+print(a)
