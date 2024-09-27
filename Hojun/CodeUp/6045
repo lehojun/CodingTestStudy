@@ -1,0 +1,5 @@
+n,m,l = map(int,input().split())
+
+e = n+m+l
+r = format(e/3, ".2f")
+print(e,r)
