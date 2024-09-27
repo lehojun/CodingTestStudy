@@ -1,0 +1,5 @@
+n,m = map(float,input().split())
+
+a=n/m
+
+print( format(a, ".3f") )
