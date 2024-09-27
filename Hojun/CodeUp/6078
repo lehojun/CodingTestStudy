@@ -1,0 +1,9 @@
+m= ord('q')
+
+while 1:
+  n = ord(input())
+  if n != m:
+    print(chr(n))
+  else:
+    print(chr(n))
+    break
