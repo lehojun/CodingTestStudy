@@ -1,0 +1,11 @@
+n = int(input())
+m = 0
+result=0
+for i in range(n):
+  if m+i >= n:
+    result = i
+    break
+  else:
+    m += i
+  
+print(result)
