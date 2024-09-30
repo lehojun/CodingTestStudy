@@ -1,0 +1,12 @@
+n = int(input())
+result = 0 
+count = 0
+while 1:
+  result+=count
+  count += 1
+
+  if result+count >= n:
+    result += count
+    break
+
+print(result)
